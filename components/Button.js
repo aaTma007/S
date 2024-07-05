@@ -7,9 +7,9 @@ const CustomButton = ({ title, onPress, buttonStyle, textStyle }) => {
 
   const handlePress = () => {
     if (onPress) {
-      onPress(()=>navigation.navigate('OrderPrepairing')); 
+      onPress(()=>navigation.navigate('Home')); 
     }
-    navigation.navigate('OrderPreparing');
+    navigation.navigate('Home');
   };
 
   return (

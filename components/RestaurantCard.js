@@ -13,7 +13,7 @@ const RestaurantCard = ({ item }) => {
         <View style={styles.textContainer}>
           <Text style={styles.title}>{item.name}</Text>
           <View style={styles.ratingContainer}>
-            <Image source={require('../assets/images/pizzaIcon.png')} style={styles.starIcon} />
+            <Image source={require('../assets/images/starIcon.jpg')} style={styles.starIcon} />
             <Text style={styles.rating}>{item.stars}</Text>
             <Text style={styles.reviews}>{`(${item.reviews} reviews)`}</Text>
             <Text style={styles.category}>{item.category}</Text>
@@ -47,8 +47,8 @@ const styles = StyleSheet.create({
     width: 330, // Adjust width as needed
   },
   image: {
-    height: '60%', // Adjust image height to fill container
-    width: '80%', // Adjust image width to fill container
+    height: '69%', // Adjust image height to fill container
+    width: '100%', // Adjust image width to fill container
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
   },

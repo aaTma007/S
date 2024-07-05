@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, ScrollView, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, View, TextInput, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native'; 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -8,6 +8,7 @@ import { themeColors } from '../theme';
 import Categories from '../components/categories';
 import FeaturedRow from '../components/FeaturedRow';
 import { featured } from '../constants';
+import Header from '../components/Header';
 
 const HomeScreen = () => {
   const [isGridView, setIsGridView] = useState(false);
@@ -24,6 +25,7 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
+      <Header />
       <View style={styles.searchBarContainer}>
         <View style={styles.inputContainer}>
           <Icon name="search" size={20} stroke="gray" />
@@ -125,4 +127,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
-

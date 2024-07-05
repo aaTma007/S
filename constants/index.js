@@ -7,34 +7,44 @@ export const categories = [
   {
     id: 2,
     name: "Burger",
-    image: require('../assets/images/pizzaIcon.png'),
+    image: require('../assets/images/hamburger.png'),
   },
   {
     id: 3,
     name: "Italian",
-    image: require('../assets/images/pizzaIcon.png'),
+    image: require('../assets/images/noodles.png'),
   },
   {
     id: 4,
     name: "Chinese",
-    image: require('../assets/images/pizzaIcon.png'),
+    image: require('../assets/images/takeout.png'),
   },
   {
     id: 5,
     name: "Noodles",
-    image: require('../assets/images/pizzaIcon.png'),
+    image: require('../assets/images/noodles.png'),
+  },
+  {
+    id: 6,
+    name: "Drinks",
+    image: require('../assets/images/drinks.png'),
+  },
+  {
+    id: 7,
+    name: "Cupcakes",
+    image: require('../assets/images/cupcake.png'),
   },
 ];
 
 export const featured = {
   id: 1,
-  title: 'Hot and Spicy',
-  description: 'Soft and tender fried chicken',
+  title: 'Popular Picks',
+  description: 'Selected from this Restaurants',
   restaurants: [
     {
       id: 1,
       name: 'Papa Johns',
-      image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+      image: require('../assets/images/restaurant5.jpg'), // Adjust path as necessary
       description: "Hot and spicy pizzas",
       lng: 38.2145602,
       lat: -85.5324269,
@@ -48,35 +58,35 @@ export const featured = {
           name: 'Pepperoni Pizza',
           price: 12.99,
           description: 'Classic pepperoni pizza',
-          image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+          image: require('../assets/images/pizza.jpeg'), // Adjust path as necessary
         },
         {
           id: 2,
           name: 'Margherita Pizza',
           price: 10.99,
           description: 'Traditional margherita pizza',
-          image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+          image: require('../assets/images/pizza.jpeg'), // Adjust path as necessary
         },
         {
           id: 3,
           name: 'Cheezy Garlic Pizza',
           price: 10.00,
           description: 'Cheezy garlic pizza',
-          image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+          image: require('../assets/images/pizza.jpeg'), // Adjust path as necessary
         },
         {
           id: 4,
           name: 'BBQ Chicken Pizza',
           price: 14.99,
           description: 'BBQ chicken with onions and peppers',
-          image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+          image: require('../assets/images/pizza.jpeg'), // Adjust path as necessary
         },
         {
           id: 5,
           name: 'Vegetarian Pizza',
           price: 11.99,
           description: 'Fresh vegetables on a thin crust',
-          image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+          image: require('../assets/images/pizza.jpeg'), // Adjust path as necessary
         },
         // Add more dishes as needed
       ],
@@ -84,7 +94,7 @@ export const featured = {
     {
       id: 2,
       name: 'Aishae',
-      image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+      image: require('../assets/images/restaurant3.webp'), // Adjust path as necessary
       description: "Delicious Italian Cuisine",
       lng: 38.1234567,
       lat: -85.9876543,
@@ -134,7 +144,7 @@ export const featured = {
     {
       id: 3,
       name: 'Sushi Express',
-      image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+      image: require('../assets/images/restaurant2.jpg'), // Adjust path as necessary
       description: "Authentic Japanese Sushi",
       lng: 37.7749295,
       lat: -122.4194155,
@@ -184,7 +194,7 @@ export const featured = {
     {
       id: 4,
       name: 'Taco House',
-      image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+      image: require('../assets/images/restaurant4.jpeg'), // Adjust path as necessary
       description: "Authentic Mexican Tacos",
       lng: 34.052235,
       lat: -118.243683,
@@ -234,7 +244,7 @@ export const featured = {
     {
       id: 5,
       name: 'Burger Joint',
-      image: require('../assets/images/pizzaIcon.png'), // Adjust path as necessary
+      image: require('../assets/images/restaurant1.webp'), // Adjust path as necessary
       description: "Gourmet Burgers and Fries",
       lng: 40.712776,
       lat: -74.005974,
@@ -281,6 +291,7 @@ export const featured = {
         // Add more dishes as needed
       ],
     },
+    
     // Add more restaurants with dishes as needed
   ],
 };

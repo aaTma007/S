@@ -94,14 +94,14 @@ const CartScreen = () => {
           </View>
           <View style={styles.summaryRow}>
             <Text style={styles.summaryLabel}>Delivery Fee</Text>
-            <Text style={styles.summaryValue}>$2</Text>
+            <Text style={styles.summaryValue}>₹2</Text>
           </View>
           <View style={styles.summaryRow}>
             <Text style={styles.totalLabel}>Order Total</Text>
-            <Text style={styles.totalValue}>${2+cartTotal}</Text>
+            <Text style={styles.totalValue}>₹{2+cartTotal}</Text>
           </View>
           <TouchableOpacity
-            onPress={()=>navigation.navigate('OrderPrepairing')}
+            onPress={()=>navigation.navigate('OrderPrepairingScreen')}
             style={[styles.placeOrderButton, { backgroundColor: themeColors.bgColor(1) }]}
           >
             <Text style={styles.placeOrderText}>Place Order</Text>
